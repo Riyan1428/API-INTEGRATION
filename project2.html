@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Linking to our CSS file for styling the app -->
+    <link rel="stylesheet" href="pro2.css">
+</head>
+<body>
+
+<!-- Cloud elements for animation -->
+<div class="cloud"></div>
+<div class="cloud"></div>
+<div class="cloud"></div>
+
+<div class="weather-container">
+    <h1> WEATHER INDICATOR </h1>
+    <!-- Form for user input -->
+    <form id="weatherForm">
+        <!-- Label for the input field -->
+        <label for="location">Enter city name:</label>
+        <!-- Input field for users to enter the city they want to check -->
+        <input type="text" id="location" placeholder="Enter city name">
+        <!-- Button to fetch weather data -->
+        <button type="button" id="getWeather">Get Weather</button>
+    </form>
+
+    <!-- This is where we'll display the weather info -->
+    <div id="weatherInfo" aria-live="polite"></div>
+</div>
+
+<!-- Including our JavaScript file that makes everything work -->
+<script src="pro2.js"></script>
+
+</body>
+</html>
