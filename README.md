@@ -19,6 +19,8 @@
 
 *MENTOR*: NEELA SANTOSH
 
+*DESCRIPTION*:
+
 
 The primary goal is to integrate an external API into a webpage. This involves making HTTP requests to the API to fetch data, which can be in JSON or XML format.The data fetched from the API should be loaded dynamically, meaning the webpage updates in real-time as new data becomes available or as the user interacts with the page.The fetched data should be displayed in a user-friendly manner on the webpage. This could involve rendering tables, lists, graphs, or other visual elements.The webpage must be designed to be responsive, ensuring it adapts to different screen sizes and devices, providing a good user experience on desktops, tablets, and mobile phones.
 Tools and Technologies:
